@@ -1,0 +1,894 @@
+body{
+    background-color:#202c45; 
+}
+
+#navbar {
+   overflow:hidden;
+   position: fixed;
+   top:0px;
+    background-color:#202c45;
+    width:100%;
+    height:60px;
+    text-align: center;
+    display: flex;
+}
+#navbar>#navbarelement>div>a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    position: relative;
+    left:-40px;
+   
+   
+  }
+ 
+ 
+ 
+   
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+ 
+ 
+  .sticky + .content {
+     background-color: aliceblue;
+  }
+  #navbar>div{
+    width:50px;
+    height:50px;
+  
+  
+    color: #f2f2f2;
+  }
+  #navbar>div>img{
+    width:130px;
+    height:70px;
+    position: relative;
+    left:40px;
+  }
+ #navbar>#navbarelement>div>button{
+    width:80px;
+    border-radius: 5px;
+   background-color: #202c45; 
+   height: 35px;
+   color: #f2f2f2;
+   font-weight: 700;
+   border:1px solid  #f2f2f2;
+ }
+ body>#navbar>div{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+ }
+ body>#navbar>#navbarelement{
+    display:flex;
+    margin-left: 500px;
+    width:500px;
+    height:100px;
+    padding-top: 20px;
+    
+    
+ }
+ body>#navbar>#navbarelement>div{
+    width:100px;
+    height:50px;
+  font-weight: bold;
+    padding-left: 22px;
+    text-decoration: none;
+    padding-right: 5px;
+    position: relative;
+    left:-60px;
+ }
+ #content>#con1{
+    display: flex;
+    color: #f2f2f2;
+    padding-left: 20px;
+    padding-top: 70px;
+    
+ 
+ }
+ #content>#con1>h1,img{
+    padding-left: 20px;
+    font-size: 42px;
+    position: relative;
+    left:-120px;
+ }
+
+#content{
+    margin-left: 500px;
+}
+   
+ 
+ *{
+
+ font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color:#f2f2f2; 
+ }
+h2{
+   font-weight: 400;
+}
+#text>h2{
+     font-size: 22px;
+     position: relative;
+     left:-80px;
+     bottom: 20px;
+}
+#text>h2>span{
+     position: relative;
+     left:60px;
+}
+#s1{
+     width:145px;
+     height:50px;
+     color:#f2f2f2;
+     border-radius: 7px;
+     background-color: #22d172;
+     border-color:#22d172;
+     font-weight: 600;
+     font-size:15px ;
+   
+}
+#s2{
+    width:145px;
+    height:50px;
+    color:#22d172;
+    border-radius: 7px;
+    background-color:#202c45;
+    border-color:#22d172;
+    font-weight: 600;
+    font-size:15px ;
+}
+#content>div>h5{
+    font-weight: 400;
+    position: relative;
+    left:90px;
+}
+#img>img{
+    height:600px;
+    width:85%;
+    margin-left:200px;
+}
+
+#play{
+    height:50px;
+    width:70px;
+   background-color: #202c45;
+   border-color: #f2f2f2;
+   border-radius: 4px;
+ position: relative;
+left:650px;
+bottom:350px;
+padding-left: 23px;
+padding-top: 10px;
+}
+
+#background{
+   background-color: #f2f2f2;
+   height:4600px;
+   width:1400px;
+   position: relative;
+   left:-10px;
+   top:-250px;
+
+}
+
+#background>#h11{
+   color:#202c45;
+   font-size: 32px;
+   text-align: center;
+   padding-top: 100px;
+   padding-right: 50px;
+}
+#background>div{
+   display: flex;
+   margin: auto;
+   padding-top: 50px;
+   padding-left: 140px;
+   justify-content: space-evenly;
+}
+.text{
+   text-align: center;
+   color:#202c45;
+   margin-right: 100px;
+}
+.text>span{
+   font-weight: 700;
+}
+
+ .text>span{
+    color: #202c45;
+    padding-left: 5px;
+}
+#background>#h12{
+   color:#202c45;
+   font-size: 42px;
+   text-align: center;
+   padding-top: 200px;
+   padding-right: 120px;
+}
+
+#freesign>#b1{
+    width:145px;
+   height:50px;
+   color:#f2f2f2;
+   border-radius: 7px;
+   background-color: #22d172;
+   border-color:#22d172;
+   font-weight: 600;
+   font-size:15px ;
+  font-weight: 600;
+  font-size:15px ;
+
+}
+#b1{
+   margin-left: 150px;
+   position: relative;
+  left:-100px;
+}
+
+#b2{
+ position: relative;
+ left:-310px;
+ color:black;
+ border:1px solid black;
+ background-color: #f2f2f2;
+ border-radius: 7px;
+ width:145px;
+ height:50px;
+ font-weight: 600;
+ font-size:15px ;
+}
+
+
+
+
+
+
+#spamreport>#big>img{
+   width:100%;
+   height:600px;
+   padding-right: 450px;
+}
+#spamreport>#small>div>img{
+   width:25px;
+   height:25px;
+   padding-right: 300px;
+   position: relative;
+   left:-45px;
+   top:75px;
+}
+
+#spamreport>#small>div>h2{
+   color: #202c45;
+   font-size: 20px;
+   font-weight: 600;
+   position: relative;
+   left:10px;
+   top:30px;
+}
+
+#small{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+ 
+   width:200px;
+   height:100px;
+   margin-right: 450px;
+}
+#html{
+   display:flex;
+   width:100%;
+   position: relative;
+   right:70px;
+}
+
+
+#html>div>h2{
+   color:#202c45;
+   position: relative;
+   left:-120px;
+
+}
+#html>div>h3{
+   color:#202c45;
+   position: relative;
+   left:-120px;
+   font-weight: 400;
+}
+#html>div>img{
+  padding-left: -450px;
+  font-size: 20px;
+}
+
+#html>div{
+   text-align: center;
+}
+#vscode{
+   display: flex;
+}
+#vscode>#e2>div>img{
+   width:25px;
+   height:25px;
+   position: relative;
+   top:48px;
+   left:10px;
+}
+#vscode>#e1>img{
+   width:700px;
+   height:500px;
+  margin-right: 200px;
+}
+#vscode>#e2>div>h3{
+   color:#202c45;
+   position: relative;
+   left:100px;
+   font-weight: 600;
+}
+#vscode>#e2{
+
+margin-left:200px;
+
+
+
+
+}
+#vscode>#e2>div{
+ 
+   width:400px;
+   height:50px;
+}
+#controlemail>#c2>img{
+   width:750px;
+   height:500px;
+}
+#controlemail>#c1>div>img{
+   width:25px;
+   height:25px;
+}
+#controlemail>#c1>div>h3{
+   color:#202c45;
+   position: relative;
+   right:50px;
+   top:-47px;
+}
+#controlemail>#c1>div{
+  
+   width:300px;
+   margin-right: 100px;
+   height: 50px;
+   position: relative;
+   top:120px;
+  
+}
+#greenball{
+   background-color: #00d084;
+   border-radius: 220px;
+   width: 300px;
+   height: 300px;
+   position: relative;
+   left:600px;
+   top:-5px;
+}
+#footer{
+    width:1500px;
+    height:600px;
+    background-color: #f2f2f2;
+    position: relative;
+    top:-100px;
+    left:-10px;
+}
+#client{
+   font-size: 42px;
+   font-weight: 700;
+   text-align: center;
+   position: relative;
+   top:-250px;
+   left:40px;
+}
+#footer>#part1>#railsware{
+   position: relative;
+   left:60px;
+   top:40px;
+  
+
+}
+
+#part2{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+  
+   width:70%;
+   height:500px;
+   grid-gap: 20px;
+}
+#part2>div{
+ 
+   height:300px;
+   position: relative;
+   left:150px;
+   top:30px;
+}
+
+#part2>div>h3,h5{
+   color: #202c45;
+
+}
+#footer{
+   display: flex;
+}
+#part2>div>h3{
+   font-weight: 500;
+}
+#part2>div>h5{
+   font-weight: 500;
+}
+
+
+#review{
+   width: 530px;
+   height: 350px;
+   position: relative;
+   top:-250px;
+   left:-200px;
+   border-radius:40px ;
+}
+
+#greenball>#bu1{
+   width:60px;
+   height:60px;
+   position: relative;
+   top:-90px;
+   left:-300px;
+   color: #202c45;
+   font-size: 42px;
+   border-radius: 20px;
+   border-color:#22d172;
+   text-align: center;
+  
+ }
+ #bu2{
+   width:60px;
+   height:60px;
+   position: relative;
+ left:350px;
+ top:-90px;
+  
+   color: #202c45;
+   font-size: 42px;
+   border-radius: 20px;
+   border-color:#22d172;
+   text-align: center;
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
